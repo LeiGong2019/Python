@@ -32,7 +32,7 @@ time.sleep(2)  # 等待2s，页面加载完成
 
 driver.find_element(By.ID,"J_SelectAll1").click()   # 选中ID属性点击，这里点击的是全选
 time.sleep(2)  # 等待2s，页面加载完成；  是因为自己电脑"结算"按键刷新太慢，要等待
-ti= '2022.7.17 01:16:00' #设置一个时间
+ti= '2022.7.17 20:03:50' #设置一个时间
 startTime = datetime.datetime.strptime(ti,'%Y.%m.%d %H:%M:%S')  #时间格式转化
 while datetime.datetime.now() < startTime:
     print(datetime.datetime.now())
